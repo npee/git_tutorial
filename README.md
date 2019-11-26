@@ -2,10 +2,10 @@
 
 ## 저장소 생성
 
-    -git init
-        -git config
-        user.name 이름
-        user.email 이메일
+    - git init
+        - git config
+            - user.name 이름
+            - user.email 이메일
 
 ## 변경사항 Staging
 
@@ -33,3 +33,15 @@
 
 - git push origin 로컬브랜치이름
 - git push origin master # 원격 저장소(origin)에 로컬 브랜치 master를 업로드
+
+## 가지 치기
+
+- git checkout 브랜치명 : 브랜치명 가지로 이동
+- git checkout -b 브랜치명 : 브랜치명 가지를 만든 후 이동
+
+- git checkout을 할 때 현재 가지에 변경 주인 파일이 남아 있으면 안된다
+
+## 가지 병합
+
+- 다른 가지의 변경 사항을 현재 가지로 반영할 경우
+- git merge 브랜치명
