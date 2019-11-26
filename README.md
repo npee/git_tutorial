@@ -53,4 +53,4 @@
 
 - 태그 업로드
 - git push 원격저장소 로컬브랜치명 --tags
-- 예) git push origin master --tags # 태그와 함께 브랜치를 push
+- 예) git push origin master --tags # 태그와 함께 브랜치를 push!
