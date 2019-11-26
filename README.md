@@ -59,3 +59,5 @@
 
 - git clone 원저장소url
 - git clone 원저장소path
+
+## 클라이언트 변경 사항 발생
