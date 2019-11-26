@@ -45,3 +45,12 @@
 
 - 다른 가지의 변경 사항을 현재 가지로 반영할 경우
 - git merge 브랜치명
+
+## 태그 달기
+
+- git log에서 commit의 ID를 확인
+- git tag 태그명 commit ID
+
+- 태그 업로드
+- git push 원격저장소 로컬브랜치명 --tags
+- 예) git push origin master --tags # 태그와 함께 브랜치를 push
